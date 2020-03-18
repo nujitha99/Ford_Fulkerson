@@ -24,7 +24,7 @@ public class Test {
         g.printGraph();
 
         // Ford-Fulkerson Max Flow Algorithm
-        System.out.print("Ford-Fulkerson Max Flow: ");
+        System.out.print("Ford-Fulkerson Max Flow : ");
         System.out.println(FordFulkerson(g, 0, 5));
     }
 
