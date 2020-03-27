@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7955ea1-1f50-445b-9e62-a69f9e1936aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/nujithawickramasurendra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jgrapht_jgrapht_core_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_jgrapht_jgrapht_core_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FordFulkerson/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FordFulkerson/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FordFulkerson/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FordFulkerson/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FordFulkerson/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FordFulkerson/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FordFulkerson/sample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FordFulkerson/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FordFulkerson/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FordFulkerson/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FordFulkerson/Test.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +38,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1ZITjLvkyXhZo2xQ3t9gvLhgEUh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -53,7 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Lombok plugin" />
@@ -94,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FordFulkerson.Hello" />
+      <module name="algocw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FordFulkerson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FordFulkerson.Test" />
       <module name="algocw" />
@@ -123,8 +147,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Graph" />
         <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +166,13 @@
       <workItem from="1584525745737" duration="689000" />
       <workItem from="1584710087883" duration="543000" />
       <workItem from="1584715003962" duration="13026000" />
-      <workItem from="1584762684150" duration="7792000" />
+      <workItem from="1584762684150" duration="9059000" />
+      <workItem from="1584929084356" duration="153000" />
+      <workItem from="1584929260445" duration="27000" />
+      <workItem from="1585015137582" duration="27340000" />
+      <workItem from="1585195201044" duration="13908000" />
+      <workItem from="1585282978233" duration="892000" />
+      <workItem from="1585305710988" duration="12774000" />
     </task>
     <servers />
   </component>
