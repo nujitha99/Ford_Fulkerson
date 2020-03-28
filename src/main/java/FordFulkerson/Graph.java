@@ -1,20 +1,13 @@
 package FordFulkerson;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Graph {
     private int vCount;
-    private int[][] adj;
+    private int[][] adj; //stores the graph edges
 
-    int getvCount() {
-        return vCount;
-    }
-
-    int[][] getAdj() {
-        return adj;
-    }
-
+    //constructor
     Graph(int vCount) {
         this.vCount = vCount;
         adj = new int[vCount][vCount];
@@ -23,6 +16,16 @@ public class Graph {
                 adj[i][j] = 0;
             }
         }
+    }
+
+    //returns edge count
+    int getvCount() {
+        return vCount;
+    }
+
+    //returns the graph
+    int[][] getAdj() {
+        return adj;
     }
 
     void addEdge(int i, int j, int weight) {
@@ -37,10 +40,12 @@ public class Graph {
         adj[i][j] = weight;
     }
 
+    //returns boolean if has an edge between given edges
     private boolean hasEdge(int i, int j) {
         return adj[i][j] != 0;
     }
 
+    //return neighbour vertices of the given node
     List<Integer> neighbours(int vertex) {
         List<Integer> edges = new ArrayList<>();
         for (int i = 0; i < vCount; i++)
