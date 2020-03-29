@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e7955ea1-1f50-445b-9e62-a69f9e1936aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jgrapht-core-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jheaps-0.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FordFulkerson/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FordFulkerson/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FordFulkerson/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FordFulkerson/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FordFulkerson/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FordFulkerson/Graph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/FordFulkerson/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FordFulkerson/Test.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +61,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -168,7 +166,9 @@
       <workItem from="1585015137582" duration="27340000" />
       <workItem from="1585195201044" duration="13908000" />
       <workItem from="1585282978233" duration="892000" />
-      <workItem from="1585305710988" duration="25961000" />
+      <workItem from="1585305710988" duration="29433000" />
+      <workItem from="1585446298951" duration="155000" />
+      <workItem from="1585449545657" duration="17425000" />
     </task>
     <task id="LOCAL-00001" summary="All user input options done. Added StopWatch to the dependencies">
       <created>1585325218631</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585325218631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commented and completed">
+      <created>1585400995981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400995981</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All user input options done. Added StopWatch to the dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="All user input options done. Added StopWatch to the dependencies" />
+    <MESSAGE value="Commented and completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented and completed" />
   </component>
 </project>

@@ -1,3 +1,14 @@
+/*
+ *
+ * Name - Nujitha Wickramasurendra
+ * UoW ID - W1742286
+ * My GitHub Project - https://github.com/nujitha99/Ford_Fulkerson
+ *
+ * Code reference - https://steemit.com/programming/@drifter1/programming-java-graph-maximum-flow-algorithm-ford-fulkerson
+ * Spring stopwatch library - https://docs.spring.io/spring/docs/2.0.x/javadoc-api/org/springframework/util/StopWatch.html
+ *
+ * */
+
 package FordFulkerson;
 
 import org.springframework.util.StopWatch;
@@ -170,43 +181,61 @@ public class Test {
                 execute();
 
             case 4: //reading four data-sets
-                scalability();
+                StopWatch stopWatch = new StopWatch("My Stop Watch"); //initializing the stop watch
+                int selected;
+                System.out.println("Enter which data set you want execute: \n" +
+                        "1) 6 nodes\n" +
+                        "2) 12 nodes\n" +
+                        "3) 36 nodes\n" +
+                        "4) 48 nodes\n");
+                do {
+                    System.out.print("Enter your choice here: ");
+                    isIntegerInput();
+                    selected = sc.nextInt();
+                } while (selected > 4 || selected < 1);
+
+                switch (selected) {
+                    case 1:
+                        stopWatch.start("6 nodes");
+                        String fileName1 = "src/main/java/FordFulkerson/6nodes.txt";
+                        readDifferentFile(fileName1, 6);
+                        System.out.println("\nCalculated Max-Flow after updating is: " + FordFulkerson(g, source, 5));
+                        stopWatch.stop();
+                        System.out.println("Task time: " + stopWatch.getLastTaskTimeMillis() + "\n");
+                        execute();
+                    case 2:
+                        stopWatch.start("12 nodes");
+                        String fileName2 = "src/main/java/FordFulkerson/12nodes.txt";
+                        readDifferentFile(fileName2, 12);
+                        System.out.println("\nCalculated Max-Flow after updating is: " + FordFulkerson(g, source, 11));
+                        stopWatch.stop();
+                        System.out.println("Task time: " + stopWatch.getLastTaskTimeMillis() + "\n");
+                        execute();
+                    case 3:
+                        stopWatch.start("24 nodes");
+                        String fileName3 = "src/main/java/FordFulkerson/24nodes.txt";
+                        readDifferentFile(fileName3, 24);
+                        System.out.println("\nCalculated Max-Flow after updating is: " + FordFulkerson(g, source, 23));
+                        stopWatch.stop();
+                        System.out.println("Task time: " + stopWatch.getLastTaskTimeMillis() + "\n");
+                        execute();
+                    case 4:
+                        stopWatch.start("48 nodes");
+                        String fileName4 = "src/main/java/FordFulkerson/48nodes.txt";
+                        readDifferentFile(fileName4, 48);
+                        System.out.println("\nCalculated Max-Flow after updating is: " + FordFulkerson(g, source, 47));
+                        stopWatch.stop();
+                        System.out.println("Task time: " + stopWatch.getLastTaskTimeMillis() + "\n");
+                        execute();
+                    default:
+                        execute();
+                }
+
                 execute();
             case 5: //quit the program
                 System.out.println(" Quiting... \n \n Thank you!");
                 System.exit(0);
         }
-    }
-
-    private void scalability() {
-        StopWatch stopWatch = new StopWatch("My Stop Watch"); //initializing the stop watch
-
-        stopWatch.start("6 nodes");
-        String fileName1 = "src/main/java/FordFulkerson/6nodes.txt";
-        readDifferentFile(fileName1, 6);
-        System.out.println("\nCalculated Max-Flow after updating is: " + FordFulkerson(g, source, 5) + "\n");
-        stopWatch.stop();
-
-        stopWatch.start("12 nodes");
-        String fileName2 = "src/main/java/FordFulkerson/12nodes.txt";
-        readDifferentFile(fileName2, 12);
-        System.out.println("\nCalculated Max-Flow after updating is: " + FordFulkerson(g, source, 11) + "\n");
-        stopWatch.stop();
-
-        stopWatch.start("24 nodes");
-        String fileName3 = "src/main/java/FordFulkerson/24nodes.txt";
-        readDifferentFile(fileName3, 24);
-        System.out.println("\nCalculated Max-Flow after updating is: " + FordFulkerson(g, source, 23) + "\n");
-        stopWatch.stop();
-
-        stopWatch.start("36 nodes");
-        String fileName4 = "src/main/java/FordFulkerson/36nodes.txt";
-        readDifferentFile(fileName4, 36);
-        System.out.println("\nCalculated Max-Flow after updating is: " + FordFulkerson(g, source, 35) + "\n");
-        stopWatch.stop();
-
-        //display time spent for execution of each process
-        System.out.println(stopWatch.prettyPrint());
     }
 
     //ensures the user input is an integer input, else re-prompt
