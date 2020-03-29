@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7955ea1-1f50-445b-9e62-a69f9e1936aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e7955ea1-1f50-445b-9e62-a69f9e1936aa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,7 @@
       <workItem from="1585282978233" duration="892000" />
       <workItem from="1585305710988" duration="29433000" />
       <workItem from="1585446298951" duration="155000" />
-      <workItem from="1585449545657" duration="17879000" />
+      <workItem from="1585449545657" duration="18118000" />
     </task>
     <task id="LOCAL-00001" summary="All user input options done. Added StopWatch to the dependencies">
       <created>1585325218631</created>
