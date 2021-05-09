@@ -2,8 +2,7 @@
 
 Ford Fulkerson Algorithm implementation 
 
-Name - Nujitha Wickramasurendra
-UoW ID - W1742286
+Author - Nujitha Wickramasurendra
 
 External libraries used:
 Spring stopwatch library - https://docs.spring.io/spring/docs/2.0.x/javadoc-api/org/springframework/util/StopWatch.html
